@@ -85,3 +85,62 @@ header{
     border-radius: 10px;
     border: 4px solid #3882f6;
 }
+
+.quote-section {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 100px;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #e5e7eb;
+}
+
+.quote-section p{
+    font-size: 36px;
+    font-style:italic;
+    font-weight: lighter;
+    color: #1f2937;
+}
+
+.call-to-action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+    background-color: #3882f6;
+    margin: 50px 150px;
+    padding: 25px 25px;
+    border-radius: 5px;
+}
+
+.author {
+    align-self: flex-end;
+    font-weight: bolder;
+    font-size: 20px;
+
+}
+.left-items h2 {
+    color: #f9faf8;
+}
+.left-items p {
+    color: #e5e7eb;
+}
+
+.call-to-action button {
+    padding: 5px 30px;
+    color: white;
+    background-color:#3882f6;
+    border: 2px solid  white;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #e5e7eb;
+
+}
